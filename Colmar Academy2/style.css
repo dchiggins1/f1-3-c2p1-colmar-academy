@@ -1,0 +1,356 @@
+body{
+	margin: 0;
+	color: #4A4A4A;
+	    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+a{
+	text-decoration: none;
+}
+
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 64px;
+	padding: 0 24px;
+}
+
+.header-mobile{
+	display: none;
+}
+
+.logo-part{
+	display: flex;
+	align-items: center;
+}
+
+.colmar{
+
+}
+
+.academy{
+	color: #888;
+}
+
+.menu{
+
+}
+
+.menu-ul{
+	display: flex;
+}
+
+.menu-ul ol{
+	margin-left: 16px;
+	padding: 0;
+	cursor: pointer;
+}
+
+.section1{
+	display: flex;
+	padding: 32px 0px;
+	background: #d8d8d8;
+	align-items: center;
+}
+
+.section1-left{
+	width: 60%;
+	padding: 0 24px
+}
+
+.section1-left-img{
+	width: 100%;
+}
+
+.section1-right-div{
+	width: 40%;
+}
+
+.start-here{
+	padding: 8px;
+	outline: none;
+	border: none;
+	background: #4A4A4A;
+	width: 60%;
+	color: white;
+	cursor: pointer;
+}
+
+.section2{
+	display: flex;
+	padding: 32px 0;
+}
+
+.section2-left{
+	width: 60%;
+	padding: 0 24px;
+}
+
+.section2-left-img{
+	width: 100%;
+}
+
+.section2-right{
+	width: 40%;
+}
+
+.section2-left h2{
+	margin: 32px 0 0;
+}
+
+.section2-left .s2-content{
+	margin: 24px 0 0;
+}
+
+.s2-r-item{
+	display: flex;
+	align-items: center;
+	padding: 16px;
+	border: solid 1px #ddd;
+}
+
+.s2-r-item:hover{
+	background: #D8D8D8;
+	cursor: pointer;
+}
+
+.s2-r-img{
+	width: 35%;
+}
+
+.s2-r-content{
+	width: 65%;
+	padding-left: 16px
+}
+
+
+.s2-r-content h3{
+	margin: 8px 0;
+}
+
+.section3{
+	background: #EAEBEC;
+	padding: 0 56px 32px;
+}
+
+.section3 h1{
+	padding: 32px 0;
+	text-align: center;
+	margin: 0;
+}
+
+.s3-content-row{
+	display: flex;
+	align-items: stretch;
+}
+
+.s3-content-item{
+	flex-grow: 1;
+	padding: 16px;
+}
+
+.s3-content-item img{
+	width: 100%;
+	height: 20vw;
+    object-fit: cover;
+}
+
+.s2-content-item-body{
+	background: white;
+}
+
+.s2-content-item-body{
+	margin: 0;
+	padding: 16px;
+	margin-top: -3px;
+}
+
+.s2-content-item-body h2{
+	margin: 0;
+}
+
+.s2-content-item-body div{
+	margin-top: 8px;
+}
+
+.s3-mobile-content-item{
+	display: none;
+}
+
+.section4{
+
+}
+
+.section4 h1{
+	text-align: center;
+	margin: 0;
+	padding: 32px;
+}
+
+.s4-content{
+	display: flex;
+}
+
+.s4-left{
+	width: 60%;
+	padding-left: 24px;
+}
+
+.s4-right{
+	width: 40%;
+}
+
+hr{
+	width:98%;
+	margin: 32px auto 16px;
+}
+
+.footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 24px 50px;
+}
+
+.termsprivacy{
+	display: flex;
+	align-items: center;
+}
+
+.terms{
+	margin-right: 20px;
+}
+
+@media only screen and (max-width: 627px) {
+	.header{
+		display: none;
+	}
+
+	.header-mobile{
+		display: flex;
+		justify-content: space-between;
+		height: 64px;
+		align-items: center;
+		padding: 0 24px;
+	}
+
+	.header-mobile ol{
+		padding: 0;
+	}
+
+	.section1{
+		flex-wrap: wrap;
+		padding: 0 0 32px
+	}
+
+	.section1-left{
+		width: 100%;
+		padding: 0;
+	}
+
+	.section1-right-div{
+		width: 100%;
+		padding: 16px;
+	}
+
+	.section1-right-div h1{
+		margin: 32px 0;
+	}
+
+	.section1-right-div h3{
+		margin: 32px 0 24px;
+	}
+
+	.start-here{
+		width: 100%;
+	}
+
+	.section2{
+
+	}
+
+	.section2-left{
+		display: none;
+	}
+
+	.section2-right{
+		width: 100%;
+	}
+
+	.s2-r-item{
+		flex-wrap: wrap;
+		border: none;
+	}
+
+	.s2-r-img{
+		width: 100%;
+		max-height: 170px;
+    	object-fit: cover;
+	}
+
+	.s2-r-content{
+		width: 100%;
+	}
+
+	.section3{
+		padding: 0 16px;
+		background: #fff;
+	}
+
+	.section3 h1{
+		padding: 32px 0 16px;
+		margin: 0;
+	}
+
+	.s3-content-row{
+		display: none;
+	}
+
+	.s3-mobile-content-item{
+		display: block;
+		padding: 16px 16px 24px;
+		margin: 8px 0;
+		background: #aaa;
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.section4{
+		margin-bottom: 24px;
+	}
+
+	.section4 h1{
+		padding: 32px 0 16px;
+	}
+
+	.s4-right{
+		display: none;
+	}
+
+	.s4-l-text{
+		display: none;
+	}
+
+	.s4-left{
+		width: 100%;
+		padding: 0;
+	}
+
+	hr{
+		display: none;
+	}
+
+	.footer{
+		padding: 0;
+	}
+
+	.copyright{
+		padding: 16px;
+	}
+
+	.termsprivacy{
+		display: none;
+	}
+}
